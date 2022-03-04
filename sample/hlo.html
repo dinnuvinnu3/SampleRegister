@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="hlo1.css">
+        <script type="text/javascript" src="hlo2.js"></script>
+    </head>
+    
+    <body>
+        <h3>Registration Form</h3>
+        <fieldset>
+            <form id="RegistrationForm" name="Registration_Form" onsubmit="return ValidateForm()">
+                <label>FirstName</label>
+                <input type="text" name="fname" placeholder="firstname" required><br><br>
+                <label>LastName</label>
+                <input type="text" name="lname" placeholder="lastname" required><br><br>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="email" required><br><br>
+                <label>Password</label>
+                <input type="password" name="password" placeholder="password" minlength="8" required><br><br>
+                <label>Re-enter Password</label>
+                <input type="password" name="re-enter_password" placeholder="Re-enter Password" minlength="8" required>
+                <span id="msg"></span><br><br>
+                <input type="submit" name="register" value="register">
+            </form> 
+        </fieldset>
+    </body>
+</html>
